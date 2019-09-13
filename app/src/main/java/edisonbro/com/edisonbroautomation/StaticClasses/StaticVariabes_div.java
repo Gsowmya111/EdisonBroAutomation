@@ -459,7 +459,7 @@ public class StaticVariabes_div
 		sompyscrdevicenames=projscrdevicenamearr;
 	}
 
-//--------swing gate
+//--------swing gate------------//
 	public static int swingscrcounts=0;
 	public static String[] swingscrnoa;
 	public static String[] swingscrdevicenames;
