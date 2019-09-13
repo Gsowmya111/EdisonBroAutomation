@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/wirles_set_backgroung_cb"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center" >
+
+    <CheckBox
+        android:id="@+id/checkBox_toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:button="@drawable/checkmark"
+        android:clickable="false"
+        android:enabled="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+    <TextView
+        android:id="@+id/textView_rname"
+        style="@style/NormalFonts"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:focusable="false"
+        android:text="Room Name"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView_devname"
+        style="@style/NormalFonts"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:focusable="false"
+        android:text="Device Name"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView_swithnumber"
+        style="@style/NormalFonts"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:focusable="false"
+        android:text="Switch Number"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/DeleteAction"
+        style="@style/NormalFonts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:clickable="false"
+        android:enabled="false"
+        android:focusable="false"
+        android:textColor="#FFFFFF"
+        android:text="Delete" />
+
+</LinearLayout>

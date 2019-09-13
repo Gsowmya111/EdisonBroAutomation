@@ -1,0 +1,598 @@
+<resources>
+    <string name="app_name">SmartLiving</string>
+
+    <string name="openDrawer">openDrawer</string>
+    <string name="closeDrawer">closeDrawer</string>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">privacy</string>
+
+
+    <string name="str_user_sett">User Settings</string>
+    <string name="str_oper_sett">Operator Settings</string>
+    <string name="str_smart_sett">Smart Settings</string>
+    <string name="str_log_analytics">Log Analytics</string>
+    <string name="str_compl_sett">Support</string>
+    <string name="str_about_sett">About Us</string>
+
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Array List for Device Full Names -->
+    <string-array name="Full_DevNames">
+        <item>Switch Board(1)</item>
+        <item>Switch Board(2)</item>
+        <item>Switch Board(3)</item>
+        <item>Switch Board(4)</item>
+        <item>Switch Board(6)</item>
+        <item>Switch Board(8)</item>
+        <item>Switch Board(2+1)</item>
+        <item>Switch Board(3+1)</item>
+        <item>Switch Board(4+2)</item>
+        <item>Switch Board(5+1)</item>
+        <item>Switch Board(5+2)</item>
+        <item>Switch Board(6+2)</item>
+        <item>Switch Board(7+1)</item>
+        <item>Switch Board(10+2)</item>
+        <item>Switch Board(11+1)</item>
+        <item>Single Light</item>
+        <item>Single Fan</item>
+        <item>Dual Fan</item>
+        <item>Dimmer</item>
+        <item>RGB</item>
+        <item>AC</item>
+        <item>Overhead Tank Sensor</item>
+        <item>Water Master Dual</item>
+        <item>Water Master Cavery</item>
+        <item>Water Master Borewell</item>
+        <item>Water Master BSO</item>
+        <item>Water Sump Sensor</item>
+        <item>Water Borewell Motor</item>
+        <item>Water Sump Motor</item>
+        <item>Gyser</item>
+        <item>Door Lock Switch</item>
+        <item>Curtain LR Single</item>
+        <item>Curtain LR Double</item>
+        <item>Curtain Roller Single</item>
+        <item>Curtain Roller Double</item>
+        <item>IR Blaster</item>
+        <item>Repeater</item>
+        <item>Calling Bell</item>
+        <item>Calling Switch</item>
+        <item>Energy Meter</item>
+        <item>Projector Screen</item>
+        <item>Projector Lift</item>
+        <item>Garden Sprinkler</item>
+        <item>Switch Board(6+1)</item>
+        <item>FM Device</item>
+        <item>Aquarium</item>
+        <item>Smartdog</item>
+        <item>Switch Dimmer(5+1)</item>
+        <item>Curtain Normal</item>
+        <item>Curtain Sheer</item>
+        <item>Somphy Shutter</item>
+        <item>Switch Board(4+1+1)</item>
+        <item>Switch Board(2+1+1)</item>
+        <item>Switch Board(1+1)</item>
+        <item>Switch Board(6+1)</item>
+        <item>Swing Gate</item>
+        <item>Slide Gate</item>
+    </string-array>
+
+    <!-- ArrayList for Device Short Names -->
+
+    <string-array name="Short_DevNames">
+        <item>S010</item>
+        <item>S020</item>
+        <item>S030</item>
+        <item>S040</item>
+        <item>S060</item>
+        <item>S080</item>
+        <item>S021</item>
+        <item>S031</item>
+        <item>S042</item>
+        <item>S051</item>
+        <item>S052</item>
+        <item>S062</item>
+        <item>S071</item>
+        <item>S102</item>
+        <item>S111</item>
+        <item>SLT1</item>
+        <item>SFN1</item>
+        <item>DFN1</item>
+        <item>DMR1</item>
+        <item>RGB1</item>
+        <item>ACR1</item>
+        <item>WOTS</item>
+        <item>WMD1</item>
+        <item>WMC1</item>
+        <item>WMB1</item>
+        <item>WBSO</item>
+        <item>WSS1</item>
+        <item>WBM1</item>
+        <item>WSM1</item>
+        <item>GSR1</item>
+        <item>DLS1</item>
+        <item>CLS1</item>
+        <item>CLD1</item>
+        <item>CRS1</item>
+        <item>CRD1</item>
+        <item>IRB1</item>
+        <item>RPR1</item>
+        <item>CLB1</item>
+        <item>CSW1</item>
+        <item>EGM1</item>
+        <item>PSC1</item>
+        <item>PLC1</item>
+        <item>GSK1</item>
+        <item>S061</item>
+        <item>FMD1</item>
+        <item>AQU1</item>
+        <item>SDG1</item>
+        <item>SWD1</item>
+        <item>CLNR</item>
+        <item>CLSH</item>
+        <item>SOSH</item>
+        <item>S141</item>
+        <item>S120</item>
+        <item>S110</item>
+        <item>S160</item>
+        <item>SWG1</item>
+        <item>SLG1</item>
+
+    </string-array>
+
+    <string-array name="Short_DevNames_references">
+        <item>S010</item>
+        <item>S020</item>
+        <item>S030</item>
+        <item>S040</item>
+        <item>S060</item>
+        <item>S080</item>
+        <item>S021</item>
+        <item>S031</item>
+        <item>S042</item>
+        <item>S051</item>
+        <item>S052</item>
+        <item>S062</item>
+        <item>S071</item>
+        <item>S102</item>
+        <item>S111</item>
+        <item>SLT1</item>
+        <item>SFN1</item>
+        <item>DFN1</item>
+        <item>DMR</item>
+        <item>RGB</item>
+        <item>ACR1</item>
+        <item>WOTS</item>
+        <item>WMD1</item>
+        <item>WMC1</item>
+        <item>WMB1</item>
+        <item>WBSO</item>
+        <item>WSS1</item>
+        <item>WBM1</item>
+        <item>WSM1</item>
+        <item>GSR1</item>
+        <item>DLS1</item>
+        <item>CUR</item>
+        <item>CUR</item>
+        <item>CUR</item>
+        <item>CUR</item>
+        <item>IRB1</item>
+        <item>RPR1</item>
+        <item>CLB1</item>
+        <item>CSW1</item>
+        <item>EGM1</item>
+        <item>PSC1</item>
+        <item>PLC1</item>
+        <item>GSK</item>
+        <item>S061</item>
+        <item>FMD1</item>
+        <item>AQU1</item>
+        <item>SDG1</item>
+        <item>SWD1</item>
+        <item>CUR</item>
+        <item>CUR</item>
+        <item>SOSH</item>
+        <item>S141</item>
+        <item>S120</item>
+        <item>S110</item>
+        <item>S160</item>
+        <item>SWG1</item>
+        <item>SLG1</item>
+    </string-array>
+
+
+    <!-- ArrayList for Device Types -->
+    <string-array name="Device_Type">
+        <item>001</item>
+        <item>002</item>
+        <item>003</item>
+        <item>004</item>
+        <item>005</item>
+        <item>006</item>
+        <item>008</item>
+        <item>009</item>
+        <item>010</item>
+        <item>011</item>
+        <item>012</item>
+        <item>013</item>
+        <item>014</item>
+        <item>015</item>
+        <item>016</item>
+        <item>017</item>
+        <item>018</item>
+        <item>019</item>
+        <item>020</item>
+        <item>021</item>
+        <item>022</item>
+        <item>023</item>
+        <item>024</item>
+        <item>025</item>
+        <item>026</item>
+        <item>027</item>
+        <item>028</item>
+        <item>029</item>
+        <item>030</item>
+        <item>031</item>
+        <item>032</item>
+        <item>033</item>
+        <item>034</item>
+        <item>035</item>
+        <item>036</item>
+        <item>037</item>
+        <item>038</item>
+        <item>039</item>
+        <item>040</item>
+        <item>041</item>
+        <item>042</item>
+        <item>043</item>
+        <item>044</item>
+        <item>045</item>
+        <item>046</item>
+        <item>047</item>
+        <item>048</item>
+        <item>049</item>
+        <item>050</item>
+        <item>051</item>
+        <item>060</item>
+        <item>061</item>
+        <item>062</item>
+        <item>063</item>
+        <item>064</item>
+        <item>065</item>
+        <item>066</item>
+
+    </string-array>
+
+
+       <string name="SWB_Details">From Configuration Remote to Enter Device Into Configuration Mode.\n\nIf SwitchBoard LED Starts Blinking and Gives One Beep  Sound Then Press Below Button To Configure the Device.
+</string>
+<string name="SWD_Details">Press OK 8051 OK From Configuration Remote to Enter Device Into Configuration Mode.\n\nIf SwitchBoard LED Starts Blinking and Gives One Beep  Sound Then Press Below Button To Configure the Device.
+</string>
+    <string name="RGB_Details">From Configuration Remote to Enter Device Into Configuration Mode.\n\nIf RGB Device Gives One Beep Sound Then Press Below Button To Configure the Device.
+</string>
+    <string name="DMR_Details">From Configuration Remote to Enter Device Into Configuration Mode.\n\nIf Dimmer Device Gives One Beep Sound Then Press Below Button To Configure the Device.
+</string>
+    <string name="CUR_Details">From Configuration Remote to Enter Device Into Configuration Mode.\n\nIf Curtain Device Gives One Beep Then Press Below Button To Configure the Device.
+</string>
+    <string name="RPR_Details">Press Configuration Switch From Rpeater Module to Enter Device Into Configuration Mode.\n\nThen Press Below Button To Configure the Device.
+</string>
+    <string name="WPC_Details">Press Configuration Switch From Water Pump Controller Module to Enter Device Into Configuration Mode.\n\nThen Press Below Button To Configure the Device.
+</string>
+    <string name="Default_Details">Configuration Details For This Device Are Not Available Yet.Please Go Back And Select Another Device.
+</string>
+    <string name="Normal_Details">Press configuration button From device to Enter Device Into Configuration Mode.\n\nIf device Gives One Beep Sound Then Press Below Button To Configure the Device.
+</string>
+
+
+    <!-- Wireless Panel Configuration Details -->
+    <string name="Wireless_Panel_Details">Press The Configuration Switch From Wireless Panel  To Enter Wireless panel in Configuration Mode.\n\nOnce Wireless Panel Entered into Configuration Mode Then Press The Below Configuration Button To Configure The Wireless Panel.
+</string>
+
+    <!-- Array List for Wireless Device Full Names -->
+    <string-array name="Full_DevNames_Wireless">
+        <item>1 Switch</item>
+        <item>2 Switch</item>
+        <item>3 Switch</item>
+        <item>4 Switch</item>
+        <item>5 Switch</item>
+        <item>6 Switch</item>
+        <item>2+1 Switch</item>
+        <item>5+1 Switch</item>
+        <item>7+1 Switch</item>
+        <item>8+1 Switch</item>
+        <item>3 Mood Switch</item>
+        <item>6 Mood Switch</item>
+        <item>Single Curtain</item>
+        <item>Dual Curtain</item>
+        <item>Single Fan</item>
+        <item>Dual Fan</item>
+        <item>Dimmer TypeA</item>
+        <item>Dual Dimmer TypeA</item>
+        <item>RGB TypeA</item>
+        <item>ZIGBEE REMOTE</item>
+        <item>Mood Setting Switch</item>
+        <item>Bell Switch</item>
+        <item>Gyser Switch</item>
+        <item>PIR Sensor</item>
+        <item>NFC Tag</item>
+        <item>PIR Direct Sensor</item>
+    </string-array>
+
+    <!-- ArrayList for Wireless Device Short Names -->
+    <string-array name="Short_DevNames_Wireless">
+        <item>WS01</item>
+        <item>WS02</item>
+        <item>WS03</item>
+        <item>WS04</item>
+        <item>WS05</item>
+        <item>WS06</item>
+        <item>WS21</item>
+        <item>WS51</item>
+        <item>WS71</item>
+        <item>WS81</item>
+        <item>WM03</item>
+        <item>WM06</item>
+        <item>WC01</item>
+        <item>WC02</item>
+        <item>WF01</item>
+        <item>WF02</item>
+        <item>WD01</item>
+        <item>WDD1</item>
+        <item>WR01</item>
+        <item>WZ01</item>
+        <item>WSS1</item>
+        <item>WBS1</item>
+        <item>WGS1</item>
+        <item>WPS1</item>
+        <item>WNFC</item>
+        <item>WPD1</item>
+    </string-array>
+
+    <!-- ArrayList for Wireless Device Types -->
+    <string-array name="Device_Type_Wireless">
+        <item>701</item>
+        <item>702</item>
+        <item>703</item>
+        <item>704</item>
+        <item>705</item>
+        <item>706</item>
+        <item>721</item>
+        <item>722</item>
+        <item>723</item>
+        <item>724</item>
+        <item>725</item>
+        <item>726</item>
+        <item>707</item>
+        <item>708</item>
+        <item>709</item>
+        <item>710</item>
+        <item>711</item>
+        <item>712</item>
+        <item>713</item>
+        <item>714</item>
+        <item>715</item>
+        <item>716</item>
+        <item>717</item>
+        <item>718</item>
+        <item>719</item>
+        <item>720</item>
+    </string-array>
+
+    <!-- Switch Board Switche's action Data List -->
+
+    <string-array name="SwitchData_Wireless">
+        <item>ON</item>
+        <item>OFF</item>
+        <item>ON/OFF</item>
+    </string-array>
+    <string-array name="SwitchData_Wireless_pir">
+        <item>ON</item>
+        <item>OFF</item>
+    </string-array>
+
+    <string-array name="ALL_ON_OFF_Data_Wireless">
+        <item>ALL ON</item>
+        <item>ALL OFF</item>
+    </string-array>
+    <string-array name="FanData23_Wireless">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>ON</item>
+        <item>OFF</item>
+        <item>ON/OFF</item>
+    </string-array>
+
+    <!-- Dimmer Array Data -->
+
+    <string-array name="DMR_BRIGHTNESS_LEVEL">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>HIGH</item>
+        <item>MEDIUM</item>
+        <item>LOW</item>
+    </string-array>
+    <string-array name="DMR_ACTIONS">
+        <item>ON</item>
+        <item>OFF</item>
+        <item>ON/OFF</item>
+    </string-array>
+
+    <!-- RGB Array Data -->
+
+    <string-array name="RGB_BRIGHTNESS_LEVEL">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="RGB_SPEED_LEVEL">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="RGB_COLOURS_Effect">
+        <item>RED</item>
+        <item>GREEN</item>
+        <item>BLUE</item>
+        <item>PINK</item>
+        <item>ORANGE</item>
+        <item>WHITE</item>
+        <item>FLASH</item>
+        <item>STROBE</item>
+        <item>SMOOTH</item>
+        <item>FADE</item>
+    </string-array>
+    <string-array name="RGB_ACTIONS">
+        <item>ON</item>
+        <item>OFF</item>
+        <item>ON/OFF</item>
+    </string-array>
+
+    <!-- CURTAIN Array Data -->
+    <string-array name="CUR_ACTIONS">
+        <item>OPEN</item>
+        <item>CLOSE</item>
+        <item>STOP</item>
+    </string-array>
+    <string-array name="RGB_MoodActions_wireless">
+        <item>ON</item>
+        <item>OFF</item>
+    </string-array>
+
+    <!-- CURTAIN Array Data for mood settings -->
+    <string-array name="DMR_MoodActions_wireless">
+        <item>ON</item>
+        <item>OFF</item>
+    </string-array>
+
+    <!-- CURTAIN Array Data for mood settings -->
+    <string-array name="CUR_MoodActions_wireless">
+        <item>OPEN</item>
+        <item>CLOSE</item>
+    </string-array>
+
+    <!-- Call Bell Array Data -->
+    <string-array name="CallBell_Actions">
+        <item>ON</item>
+        <item>OFF</item>
+    </string-array>
+
+    <!-- Door Lock Array Data -->
+    <string-array name="DoorLock_Actions">
+        <item>OPEN</item>
+    </string-array>
+
+
+    <dimen name="roompanel_spin">15dp</dimen>
+    <dimen name="roompaneltxt">15dp</dimen>
+    <dimen name="checktxt">11dp</dimen>
+    <dimen name="expwidth">130dp</dimen>
+    <dimen name="expheight">170dp</dimen>
+
+    //group
+    <dimen name="grouppadding">7dp</dimen>
+    <dimen name="grouptext">16dp</dimen>
+    <dimen name="grouptext_margintop">4dp</dimen>
+    <dimen name="grouptext_marginbot">4dp</dimen>
+
+    <dimen name="groupimg_margintop">2dp</dimen>
+    <dimen name="groupimg_marginbot">2dp</dimen>
+
+    //child
+    <dimen name="itemtext_margintop">4dp</dimen>
+    <dimen name="itemtext_marginbot">4dp</dimen>
+    <dimen name="itemtext_marginbleft">60dp</dimen>
+    <dimen name="itemcheck_margintop">4dp</dimen>
+    <dimen name="itemcheck_marginbot">4dp</dimen>
+    <dimen name="itemcheck_marginbleft">35dp</dimen>
+    <dimen name="itemview_margintop">38dp</dimen>
+    <dimen name="childtext">12sp</dimen>
+
+
+    <dimen name="txtsub2">14dp</dimen>
+    <dimen name="dimmerset_Savebtn">20dp</dimen>
+
+    <string-array name="swbnum">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="edit_timer">
+        <item>Select Room</item>
+        <item>Room 1</item>
+        <item>Room 2</item>
+        <item>Room 3</item>
+        <item>Room 4</item>
+        <item>Room 5</item>
+    </string-array>
+
+
+    <string-array name="iconstype">
+        <item>Home</item>
+        <item>Office</item>
+        <item>Hotel</item>
+    </string-array>
+
+    <!-- bubblechart-->
+
+    <string name="action_about">About</string>
+    <string name="title_activity_line_chart">LineChartActivity</string>
+    <string name="title_activity_column_chart">ColumnChartActivity</string>
+    <string name="title_activity_pie_chart">PieChartActivity</string>
+    <string name="title_activity_bubble_chart">BubbleChartActivity</string>
+    <string name="title_activity_preview_line_chart">PreviewLineChartActivity</string>
+    <string name="title_activity_preview_column_chart">PreviewColumnChartActivity</string>
+    <string name="title_activity_combo_line_column_chart">ComboLineColumnChartActivity</string>
+    <string name="title_activity_line_column_dependency">LineColumnDependency</string>
+    <string name="title_activity_good_bad">GoodBadActivity</string>
+    <string name="title_activity_tempo_chart">TempoChartActivity</string>
+    <string name="title_activity_speed_chart">SpeedChartActivity</string>
+    <string name="title_activity_view_pager_charts">ViewPagerChartsActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="about_version_label">"Library version "</string>
+    <string name="about_author">Leszek Wach 2014</string>
+    <string name="about_app_icon_content_description">App icon</string>
+    <string name="about_go_to_github">Go to GitHub</string>
+
+</resources>

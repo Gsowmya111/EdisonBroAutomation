@@ -1,0 +1,317 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+    <!-- TODO: Update blank fragment layout -->
+ <!--   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />
+-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="2">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:orientation="vertical"
+            >
+
+
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:orientation="vertical"
+                android:background="@mipmap/eb_background"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:orientation="vertical">
+
+                <edisonbro.com.edisonbroautomation.Sdlv.SlideAndDragListView
+                    android:id="@+id/lv_edit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    android:dividerHeight="1dip"
+                    android:listSelector="@drawable/list_selector"
+                    >
+                </edisonbro.com.edisonbroautomation.Sdlv.SlideAndDragListView>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.3"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+
+            <!--  <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/test" />-->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.8"
+                android:orientation="vertical"
+                android:weightSum="2"
+                android:layout_marginTop="5dp">
+
+
+
+
+                <GridView
+                    android:id="@+id/gridView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_weight="0.5"
+                    android:columnWidth="200dp"
+                    android:horizontalSpacing="0dp"
+                    android:numColumns="3"
+                    android:stretchMode="columnWidth"
+                    android:verticalSpacing="15dp"
+                   />
+
+                <LinearLayout
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.2"
+                    android:orientation="horizontal">
+
+                    <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:id="@+id/viewpager"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginLeft="100dp"
+
+                        android:layout_marginBottom="50dp"/>
+
+                    <RelativeLayout
+                        android:id="@+id/viewPagerIndicator"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="0dp"
+                        android:gravity="center">
+
+                        <LinearLayout
+                            android:id="@+id/viewPagerCountDots"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:orientation="horizontal" />
+
+                    </RelativeLayout>
+
+                    <!-- <GridView
+                         android:id="@+id/testgridView"
+                         android:layout_width="fill_parent"
+                         android:layout_height="fill_parent"
+                         android:layout_centerHorizontal="true"
+                         android:layout_centerVertical="true"
+                         android:columnWidth="200dp"
+                         android:horizontalSpacing="0dp"
+                         android:numColumns="1"
+                         android:stretchMode="columnWidth"
+                         android:verticalSpacing="5dp"
+                         />-->
+                </LinearLayout>
+
+
+                <FrameLayout
+                    android:id="@+id/fragment_place"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1.5">
+
+
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:orientation="horizontal">
+
+
+                1
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+
+                    <Button
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" />
+
+                </LinearLayout>
+
+                2
+
+                <LinearLayout
+                    android:layout_width="5dp"
+                    android:layout_height="fill_parent"
+                    android:background="#999999">
+
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="#999999" />
+
+                </LinearLayout>
+
+
+                3
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    >
+
+
+                    <Button
+
+                        android:id="@+id/button"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" />
+
+
+                </LinearLayout>
+
+                4
+
+                <LinearLayout
+                    android:layout_width="5dp"
+                    android:layout_height="fill_parent"
+                    android:background="#999999">
+
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="#999999" />
+
+                </LinearLayout>
+
+                5
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+
+                    <Button
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" />
+
+
+                </LinearLayout>
+                6
+
+                <LinearLayout
+                    android:layout_width="5dp"
+                    android:layout_height="fill_parent"
+                    android:background="#999999">
+
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="#999999" />
+
+                </LinearLayout>
+                7
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    >
+
+
+                    <Button
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" />
+
+
+                </LinearLayout>
+
+                8
+
+                <LinearLayout
+                    android:layout_width="5dp"
+                    android:layout_height="fill_parent"
+                    android:background="#999999">
+
+                    <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="#999999" />
+
+                </LinearLayout>
+
+
+                9
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+
+                    >
+
+
+                    <Button
+
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,1997 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+
+    -----------------------
+
+    1start
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:background="#4282D0"
+        android:weightSum="11">
+
+        1
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.3">
+
+        </LinearLayout>
+        --------------------
+        2
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/back" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5">
+
+            </LinearLayout>
+
+        </LinearLayout>
+        ----------------
+        3
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5">
+
+        </LinearLayout>
+
+        4
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="6">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center|left"
+                android:text="Panel Settings"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/addhome_text"
+                />
+        </LinearLayout>
+
+
+
+        6
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.8"
+
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.75">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5">
+
+                <ImageView
+                    android:id="@+id/server_status"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    app:srcCompat="@drawable/not_connected" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.75">
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        7
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1">
+
+        </LinearLayout>
+
+        8
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.8"
+
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.75">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5">
+
+                <ImageView
+                    android:id="@+id/btnsignal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/signal_0" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.75">
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        9
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1">
+
+        </LinearLayout>
+
+        10
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.8"
+
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.75">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5">
+
+                <Button
+                    android:id="@+id/btnhome"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/home" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.75">
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        11
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.4">
+
+        </LinearLayout>
+
+
+        end
+    </LinearLayout>
+
+    ------------------------------------------------
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.8"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:id="@+id/chk">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.2">
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.6"
+                android:weightSum="0.9"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.08"></LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.8"
+                    android:orientation="vertical"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:weightSum="1"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:weightSum="3"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:weightSum="3"
+                                android:orientation="vertical">
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.5"></LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="2">
+                                    <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:gravity="left|center"
+                                        android:textSize="@dimen/roompaneltxt"
+                                        android:text="Room Name"/>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.5"></LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="0.5"></LinearLayout>
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1.5"
+                                android:orientation="vertical"
+                                android:weightSum="1">
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.1"></LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.8">
+
+                                    <Spinner
+                                        android:id="@+id/panel_room_list"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:background="@drawable/select"
+                                        ></Spinner>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.1"></LinearLayout>
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.2"></LinearLayout>
+
+                    </LinearLayout>
+                    --------------------------------------------
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:weightSum="1"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:weightSum="3"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:weightSum="3"
+                                android:orientation="vertical">
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.5"></LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="2">
+                                    <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:gravity="left|center"
+                                        android:textSize="@dimen/roompaneltxt"
+                                        android:text="Panel Name"/>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.5"></LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="0.5"></LinearLayout>
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1.5"
+                                android:orientation="vertical"
+                                android:weightSum="1">
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.1"></LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.8">
+
+                                    <Spinner
+                                        android:id="@+id/panel_type_list"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:background="@drawable/select"></Spinner>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.1"></LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.2"></LinearLayout>
+                    </LinearLayout>
+
+                    -------------------------------------------------------
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:weightSum="1"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.8"
+                            android:weightSum="3"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1.85"
+                                android:weightSum="3"
+                                android:orientation="vertical">
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:weightSum="1">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.1"></LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.7">
+
+                                    <Button
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:textAlignment="center"
+                                        android:text="Display"
+                                        android:textColor="#fff"
+                                        android:textSize="@dimen/roompaneltxt"
+                                        android:background="@drawable/display_button"
+                                        android:id="@+id/submit_btn"></Button>
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="0.2"></LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="0.15"></LinearLayout>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.1"></LinearLayout>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.2"></LinearLayout>
+
+
+        </LinearLayout>
+
+        ---------   -----  ---------------------------------------------------------------------------
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:weightSum="3"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.2"></LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2.6"
+                android:orientation="vertical"
+                android:weightSum="3">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"></LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:orientation="horizontal"
+                    >
+                    <LinearLayout
+                        android:id="@+id/lay_check1"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.2"
+                        android:weightSum="1"
+                        android:background="@drawable/wls_switch_off"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.1"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.8"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.1"></LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.8"
+                                android:orientation="horizontal"
+                                android:weightSum="0.4">
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="0.38"
+                                    android:orientation="vertical"
+                                    android:weightSum="1">
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.1"></LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.8">
+
+                                        <CheckBox
+                                            android:id="@+id/checkbox1"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="fill_parent"
+                                            android:textSize="@dimen/checktxt"
+                                            android:gravity="center"
+                                            android:text="1"
+                                            android:textStyle="bold"
+                                            android:textColor="#fff"
+                                            android:button="@drawable/check_room_panel"
+                                            />
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.1"></LinearLayout>
+                                </LinearLayout>
+
+                                -------
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_weight="0.02"
+                                    android:layout_height="fill_parent"></LinearLayout>
+
+                                ----------
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="0">
+                                    <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:gravity="center"
+                                        android:visibility="invisible"
+                                        android:text="Switch Off"/>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.1"></LinearLayout>
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.1"></LinearLayout>
+
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.1">
+                    </LinearLayout>
+                    ////////////////////////////////////
+                    <LinearLayout
+                        android:id="@+id/lay_check2"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.2"
+                        android:weightSum="1"
+                        android:background="@drawable/wls_switch_off"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.1"></LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.8"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.1"></LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.8"
+                                android:orientation="horizontal"
+                                android:weightSum="0.4">
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="0.38"
+                                    android:orientation="vertical"
+                                    android:weightSum="1">
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.1"></LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.8">
+                                        <CheckBox
+                                            android:id="@+id/checkbox2"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="fill_parent"
+                                            android:textSize="@dimen/checktxt"
+                                            android:gravity="center"
+                                            android:text="2"
+                                            android:textColor="#fff"
+                                            android:textStyle="bold"
+                                            android:button="@drawable/check_room_panel"
+                                            />
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.1"></LinearLayout>
+                                </LinearLayout>
+
+                                -------
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_weight="0.02"
+                                    android:layout_height="fill_parent"></LinearLayout>
+
+                                ----------
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="0">
+                                    <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:gravity="center"
+                                        android:visibility="invisible"
+                                        android:text="Switch Off"/>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.1"></LinearLayout>
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.1"></LinearLayout>
+                    </LinearLayout>
+
+
+                    ////////////////////////////////////////////////////////////////
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.1">
+                    </LinearLayout>
+                    ////////////////////////////////////////////////////////////////////
+                    <LinearLayout
+                        android:id="@+id/lay_check3"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.2"
+                        android:weightSum="1"
+                        android:background="@drawable/wls_switch_off"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.1"></LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.8"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.1"></LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.8"
+                                android:orientation="horizontal"
+                                android:weightSum="0.4">
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="0.38"
+                                    android:orientation="vertical"
+                                    android:weightSum="1">
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.1"></LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.8">
+                                        <CheckBox
+                                            android:id="@+id/checkbox3"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="fill_parent"
+                                            android:textSize="@dimen/checktxt"
+                                            android:gravity="center"
+                                            android:textColor="#fff"
+                                            android:textStyle="bold"
+                                            android:text="3"
+                                            android:button="@drawable/check_room_panel"
+                                            />
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.1"></LinearLayout>
+                                </LinearLayout>
+
+                                -------
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_weight="0.02"
+                                    android:layout_height="fill_parent"></LinearLayout>
+
+                                ----------
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="0">
+                                    <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:gravity="center"
+                                        android:visibility="invisible"
+                                        android:text="Switch Off"/>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.1"></LinearLayout>
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.1"></LinearLayout>
+                    </LinearLayout>
+
+                    ////////////////////////////////////////////////////////////////
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.1">
+                    </LinearLayout>
+                    ////////////////////////////////////////////////////////////////////
+                    <LinearLayout
+                        android:id="@+id/lay_check4"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.2"
+                        android:weightSum="1"
+                        android:background="@drawable/wls_switch_off"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.1"></LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.8"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.1"></LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.8"
+                                android:orientation="horizontal"
+                                android:weightSum="0.4">
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="0.38"
+                                    android:orientation="vertical"
+                                    android:weightSum="1">
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.1"></LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.8">
+                                        <CheckBox
+                                            android:id="@+id/checkbox4"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="fill_parent"
+                                            android:textSize="@dimen/checktxt"
+                                            android:gravity="center"
+                                            android:textColor="#fff"
+                                            android:textStyle="bold"
+                                            android:text="4"
+                                            android:button="@drawable/check_room_panel"
+                                            />
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.1"></LinearLayout>
+                                </LinearLayout>
+
+                                -------
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_weight="0.02"
+                                    android:layout_height="fill_parent"></LinearLayout>
+
+                                ----------
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="0">
+                                    <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:gravity="center"
+                                        android:visibility="invisible"
+                                        android:text="Switch Off"/>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.1"></LinearLayout>
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.1"></LinearLayout>
+                    </LinearLayout>
+                    ////////////////////////////////////////////////////////
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.6"
+                        android:weightSum="1"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.2"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.4"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:weightSum="1"
+                    android:orientation="horizontal">
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.2"></LinearLayout>
+        </LinearLayout>
+
+        ////////////////////////////////////////////////////////////////////////////////////
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:weightSum="3"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.2"></LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2.6"
+                android:orientation="vertical"
+                android:weightSum="3">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"></LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:orientation="horizontal"
+                    >
+                    <LinearLayout
+                        android:id="@+id/lay_check5"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.2"
+                        android:weightSum="1"
+                        android:background="@drawable/wls_switch_off"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.1"></LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.8"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.1"></LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.8"
+                                android:orientation="horizontal"
+                                android:weightSum="0.4">
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="0.38"
+                                    android:orientation="vertical"
+                                    android:weightSum="1">
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.1"></LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.8">
+                                        <CheckBox
+                                            android:id="@+id/checkbox5"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="fill_parent"
+                                            android:textSize="@dimen/checktxt"
+                                            android:gravity="center"
+                                            android:text="5"
+                                            android:textColor="#fff"
+                                            android:textStyle="bold"
+                                            android:button="@drawable/check_room_panel"
+                                            />
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.1"></LinearLayout>
+                                </LinearLayout>
+
+                                -------
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_weight="0.02"
+                                    android:layout_height="fill_parent"></LinearLayout>
+
+                                ----------
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="0">
+                                    <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:gravity="center"
+                                        android:visibility="invisible"
+                                        android:text="Switch Off"/>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.1"></LinearLayout>
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.1"></LinearLayout>
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.1">
+                    </LinearLayout>
+                    ////////////////////////////////////
+                    <LinearLayout
+                        android:id="@+id/lay_check6"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.2"
+                        android:weightSum="1"
+                        android:background="@drawable/wls_switch_off"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.1"></LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.8"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.1"></LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.8"
+                                android:orientation="horizontal"
+                                android:weightSum="0.4">
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="0.38"
+                                    android:orientation="vertical"
+                                    android:weightSum="1">
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.1"></LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.8">
+                                        <CheckBox
+                                            android:id="@+id/checkbox6"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="fill_parent"
+                                            android:textSize="@dimen/checktxt"
+                                            android:gravity="center"
+                                            android:text="6"
+                                            android:textStyle="bold"
+                                            android:textColor="#fff"
+                                            android:button="@drawable/check_room_panel"
+                                            />
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.1"></LinearLayout>
+                                </LinearLayout>
+
+                                -------
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_weight="0.02"
+                                    android:layout_height="fill_parent"></LinearLayout>
+
+                                ----------
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="0">
+                                    <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:gravity="center"
+                                        android:visibility="invisible"
+                                        android:text="Switch Off"/>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.1"></LinearLayout>
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.1"></LinearLayout>
+                    </LinearLayout>
+
+
+                    ////////////////////////////////////////////////////////////////
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.1">
+                    </LinearLayout>
+                    ////////////////////////////////////////////////////////////////////
+                    <LinearLayout
+                        android:id="@+id/lay_check7"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.2"
+                        android:weightSum="1"
+                        android:background="@drawable/wls_switch_off"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.1"></LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.8"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.1"></LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.8"
+                                android:orientation="horizontal"
+                                android:weightSum="0.4">
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="0.38"
+                                    android:orientation="vertical"
+                                    android:weightSum="1">
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.1"></LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.8">
+
+                                        <CheckBox
+                                            android:id="@+id/checkbox7"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="fill_parent"
+                                            android:textSize="@dimen/checktxt"
+                                            android:gravity="center"
+                                            android:textColor="#fff"
+                                            android:text="7"
+                                            android:textStyle="bold"
+                                            android:button="@drawable/check_room_panel"
+                                            />
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.1"></LinearLayout>
+                                </LinearLayout>
+
+                                -------
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_weight="0.02"
+                                    android:layout_height="fill_parent"></LinearLayout>
+
+                                ----------
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="0">
+                                    <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:gravity="center"
+                                        android:visibility="invisible"
+                                        android:text="Switch Off"/>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.1"></LinearLayout>
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.1"></LinearLayout>
+                    </LinearLayout>
+                    ////////////////////////////////////////////////////////
+                    ////////////////////////////////////////////////////////////////
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.1">
+                    </LinearLayout>
+                    ////////////////////////////////////////////////////////////////////
+                    <LinearLayout
+                        android:id="@+id/lay_check8"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.2"
+                        android:weightSum="1"
+                        android:background="@drawable/wls_switch_off"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.1"></LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.8"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.1"></LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.8"
+                                android:orientation="horizontal"
+                                android:weightSum="0.4">
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="0.38"
+                                    android:orientation="vertical"
+                                    android:weightSum="1">
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.1"></LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.8">
+
+                                        <CheckBox
+                                            android:id="@+id/checkbox8"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="fill_parent"
+                                            android:textSize="@dimen/checktxt"
+                                            android:gravity="center"
+                                            android:textColor="#fff"
+                                            android:text="8"
+                                            android:textStyle="bold"
+                                            android:button="@drawable/check_room_panel"
+                                            />
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.1"></LinearLayout>
+                                </LinearLayout>
+
+                                -------
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_weight="0.02"
+                                    android:layout_height="fill_parent"></LinearLayout>
+
+                                ----------
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="0">
+                                    <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:gravity="center"
+                                        android:visibility="invisible"
+                                        android:text="Switch Off"/>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.1"></LinearLayout>
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.1"></LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.6"
+                        android:weightSum="1"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.2"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.4"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:weightSum="1"
+                    android:orientation="horizontal">
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.2"></LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:weightSum="3"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.2"></LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2.6"
+                android:orientation="vertical"
+                android:weightSum="3">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"></LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:orientation="horizontal"
+                    >
+                    <LinearLayout
+                        android:id="@+id/lay_check9"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.2"
+                        android:weightSum="1"
+                        android:background="@drawable/wls_switch_off"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.1"></LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.8"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.1"></LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.8"
+                                android:orientation="horizontal"
+                                android:weightSum="0.4">
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="0.38"
+                                    android:orientation="vertical"
+                                    android:weightSum="1">
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.1"></LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.8">
+
+                                        <CheckBox
+                                            android:id="@+id/checkbox9"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="fill_parent"
+                                            android:textSize="@dimen/checktxt"
+                                            android:gravity="center"
+                                            android:text="9"
+                                            android:textColor="#fff"
+                                            android:textStyle="bold"
+                                            android:button="@drawable/check_room_panel"
+                                            />
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.1"></LinearLayout>
+                                </LinearLayout>
+
+                                -------
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_weight="0.02"
+                                    android:layout_height="fill_parent"></LinearLayout>
+
+                                ----------
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="0">
+                                    <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:gravity="center"
+                                        android:visibility="invisible"
+                                        android:text="Switch Off"/>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.1"></LinearLayout>
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.1"></LinearLayout>
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.1">
+                    </LinearLayout>
+                    ////////////////////////////////////
+                    <LinearLayout
+                        android:id="@+id/lay_check10"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.2"
+                        android:weightSum="1"
+                        android:background="@drawable/wls_switch_off"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.1"></LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.8"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.1"></LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.8"
+                                android:orientation="horizontal"
+                                android:weightSum="0.4">
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="0.38"
+                                    android:orientation="vertical"
+                                    android:weightSum="1">
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.1"></LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.8">
+                                        <CheckBox
+                                            android:id="@+id/checkbox10"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="fill_parent"
+                                            android:textSize="@dimen/checktxt"
+                                            android:gravity="center"
+                                            android:text="10"
+                                            android:textColor="#fff"
+                                            android:textStyle="bold"
+                                            android:button="@drawable/check_room_panel"
+                                            />
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.1"></LinearLayout>
+                                </LinearLayout>
+
+                                -------
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_weight="0.02"
+                                    android:layout_height="fill_parent"></LinearLayout>
+
+                                ----------
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="0">
+                                    <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:gravity="center"
+                                        android:visibility="invisible"
+                                        android:text="Switch Off"/>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.1"></LinearLayout>
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.1"></LinearLayout>
+                    </LinearLayout>
+
+
+                    ////////////////////////////////////////////////////////////////
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.1">
+                    </LinearLayout>
+                    ////////////////////////////////////////////////////////////////////
+                    <LinearLayout
+                        android:id="@+id/lay_check11"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.2"
+                        android:weightSum="1"
+                        android:background="@drawable/wls_switch_off"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.1"></LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.8"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.1"></LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.8"
+                                android:orientation="horizontal"
+                                android:weightSum="0.4">
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="0.38"
+                                    android:orientation="vertical"
+                                    android:weightSum="1">
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.1"></LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.8">
+                                        <CheckBox
+                                            android:id="@+id/checkbox11"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="fill_parent"
+                                            android:textSize="@dimen/checktxt"
+                                            android:gravity="center"
+                                            android:textColor="#fff"
+                                            android:text="11"
+                                            android:textStyle="bold"
+                                            android:button="@drawable/check_room_panel"
+                                            />
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.1"></LinearLayout>
+                                </LinearLayout>
+
+                                -------
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_weight="0.02"
+                                    android:layout_height="fill_parent"></LinearLayout>
+
+                                ----------
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="0">
+                                    <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:gravity="center"
+                                        android:visibility="invisible"
+                                        android:text="Switch Off"/>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.1"></LinearLayout>
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.1"></LinearLayout>
+                    </LinearLayout>
+                    ////////////////////////////////////////////////////////
+                    ////////////////////////////////////////////////////////////////
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.1">
+                    </LinearLayout>
+                    ////////////////////////////////////////////////////////////////////
+                    <LinearLayout
+                        android:id="@+id/lay_check"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.2"
+                        android:weightSum="1"
+                        android:visibility="invisible"
+                        android:background="@drawable/wls_switch_off"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.1"></LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.8"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.1"></LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.8"
+                                android:orientation="horizontal"
+                                android:weightSum="0.4">
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="0.38"
+                                    android:orientation="vertical"
+                                    android:weightSum="1">
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.1"></LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.8">
+                                        <CheckBox
+                                            android:id="@+id/checkbox"
+                                            android:layout_width="fill_parent"
+                                            android:layout_height="fill_parent"
+                                            android:textSize="@dimen/checktxt"
+                                            android:gravity="center"
+                                            android:textColor="#fff"
+                                            android:text=""
+                                            android:button="@drawable/check_room_panel"
+                                            />
+                                    </LinearLayout>
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="0dp"
+                                        android:layout_weight="0.1"></LinearLayout>
+                                </LinearLayout>
+
+                                -------
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_weight="0.02"
+                                    android:layout_height="fill_parent"></LinearLayout>
+
+                                ----------
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent"
+                                    android:layout_weight="0">
+                                    <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:gravity="center"
+                                        android:visibility="invisible"
+                                        android:text="Switch Off"/>
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.1"></LinearLayout>
+
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.1"></LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.6"
+                        android:weightSum="1"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.2"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="0.4"
+                            android:orientation="vertical"
+                            android:weightSum="1">
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.5"
+                    android:weightSum="1"
+                    android:orientation="horizontal">
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.2"></LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.06"
+            android:orientation="horizontal"
+            android:weightSum="1">
+        </LinearLayout>
+        //////////////////////////////////////////////////////////////////////////////////
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.15"></LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.7"
+                android:weightSum="2"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2">
+
+                    <ExpandableListView
+                        android:id="@+id/HomeDeviceList"
+                        android:layout_height="180dp"
+                        android:layout_width="@dimen/expwidth"
+                        android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorRight"
+                        android:divider="#FFF"
+                        android:dividerHeight="2dp"
+                        android:groupIndicator="@null"
+                        android:scrollbars="vertical|horizontal"
+                        android:layout_weight="1"
+                        android:paddingLeft="2dp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0"></LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.15"></LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

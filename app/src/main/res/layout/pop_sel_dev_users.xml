@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".operatorsettings.OperatorSettingsMain">
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:id="@+id/button"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/header"
+        android:text="Select Rooms/Devices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+
+    <ExpandableListView
+        android:id="@+id/expandable_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:groupIndicator="@null"
+        android:background="@drawable/wirles_set_backgroung01"
+        android:divider="#FFF"
+        android:dividerHeight="2dp"
+
+        ></ExpandableListView>
+
+</LinearLayout>

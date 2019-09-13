@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="edisonbro.com.edisonbroautomation.Main_Navigation_Activity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:theme="@style/AppTheme.AppBarOverlay"
+
+        >
+
+
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_gravity="end"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            >
+
+                <Button
+
+                    android:layout_width="100dp"
+                    android:layout_height="55dp"
+                    android:visibility="invisible"
+                    android:gravity="end"
+
+
+                    />
+
+                <Button
+
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/btnconstatus"
+
+                    android:background="@drawable/not_connected"
+
+                    />
+
+                <Button
+
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/btnsignal"
+                    android:background="@drawable/signal_0"
+                    />
+
+
+
+            </android.support.v7.widget.Toolbar>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"></FrameLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:backgroundTint="@color/colorPrimary"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+</android.support.design.widget.CoordinatorLayout>

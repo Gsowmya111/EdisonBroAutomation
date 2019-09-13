@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="New Text"
+        android:id="@+id/textView_toggle"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="@dimen/itemtext_marginbleft"
+        android:textSize="@dimen/childtext"
+        android:textColor="#fff"
+        android:layout_marginTop="@dimen/itemtext_margintop"
+        android:layout_marginBottom="@dimen/itemtext_marginbot"
+        android:gravity="center"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text=""
+        android:layout_marginLeft="@dimen/itemcheck_marginbleft"
+        android:layout_marginTop="@dimen/itemcheck_margintop"
+        android:layout_marginBottom="@dimen/itemcheck_marginbot"
+        android:focusable="false"
+        android:id="@+id/checkBox_toggle"
+        android:gravity="center"
+        android:button="@drawable/check_room_panel"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="@dimen/itemview_margintop"
+        android:background="@android:color/white"/>
+</RelativeLayout>
+
+
+    <!-- <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:weightSum="2"
+         android:orientation="vertical">
+
+         <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="0dp"
+             android:layout_weight="0.2"></LinearLayout>
+         <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="0dp"
+             android:layout_weight="1.6"
+             android:weightSum="1"
+             android:orientation="vertical">
+             <LinearLayout
+                 android:layout_width="fill_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="0"></LinearLayout>
+             <LinearLayout
+                 android:layout_width="fill_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="0.8"
+                 android:orientation="horizontal"
+                 android:weightSum="1">
+                 <LinearLayout
+                     android:layout_width="0dp"
+                     android:layout_height="fill_parent"
+                     android:layout_weight="0.1"></LinearLayout>
+                 <LinearLayout
+                     android:layout_width="0dp"
+                     android:layout_height="fill_parent"
+                     android:layout_weight="0.1"
+                     android:weightSum="1"
+                     android:orientation="vertical">
+                     <LinearLayout
+                         android:layout_width="fill_parent"
+                         android:layout_height="0dp"
+                         android:layout_weight="0.2"></LinearLayout>
+                     <LinearLayout
+                         android:layout_width="fill_parent"
+                         android:layout_height="0dp"
+                         android:layout_weight="0.8">
+                         <CheckBox
+                             android:layout_width="fill_parent"
+                             android:layout_height="fill_parent"
+                             android:textAlignment="center"
+                             android:focusable="false"
+                             android:id="@+id/lstcheckBox"
+                             android:text=""
+                             android:button="@drawable/check_room_panel"
+                             />
+                     </LinearLayout>
+                     <LinearLayout
+                         android:layout_width="fill_parent"
+                         android:layout_height="0dp"
+                         android:layout_weight="0.2"></LinearLayout>
+                 </LinearLayout>
+                 <LinearLayout
+                     android:layout_width="0dp"
+                     android:layout_height="fill_parent"
+                     android:layout_weight="0.1"></LinearLayout>
+                 <LinearLayout
+                     android:layout_width="0dp"
+                     android:layout_height="fill_parent"
+                     android:layout_weight="0.4">
+                     <TextView
+                         android:id="@+id/lblListItem"
+                         android:layout_width="fill_parent"
+                         android:layout_height="fill_parent"
+                         android:text="New Text"
+                         android:textSize="15sp"
+                        />
+                 </LinearLayout>
+                 <LinearLayout
+                     android:layout_width="0dp"
+                     android:layout_height="fill_parent"
+                     android:layout_weight="0.3"></LinearLayout>
+
+
+             </LinearLayout>
+             <LinearLayout
+                 android:layout_width="fill_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="0.2"></LinearLayout>
+         </LinearLayout>
+         <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="0dp"
+             android:layout_weight="0.2"></LinearLayout>
+     </LinearLayout>
+ </LinearLayout>
+ -->   <!-- android:button="@drawable/check_room_panel"-->

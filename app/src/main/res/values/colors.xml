@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4282d0</color>
+    <color name="colorPrimaryDark">#4282d0</color>
+    <color name="colorAccent">#00BCD4</color>
+   <!-- <color name="colorAccent">#FF4081</color>-->
+
+
+    <color name="txt_gray">#cc222222</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="holo_green_dark">#ff669900</color>
+    <color name="holo_red_dark">#ffcc0000</color>
+    <color name="holo_gray_light">#33999999</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_orange_dark">#ffff8800</color>
+    <color name="holo_blue">#33B5E5</color>
+</resources>

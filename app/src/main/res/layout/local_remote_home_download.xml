@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3"
+    android:layout_weight="1">
+
+    1 <LinearLayout
+    android:id="@+id/layhead1"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.8"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:background="#4282D0">
+
+
+        1
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5">
+
+        </LinearLayout>
+        --------------------
+        2
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2">
+
+                <Button
+                    android:id="@+id/btnback"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/back" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5">
+
+            </LinearLayout>
+
+        </LinearLayout>
+        ----------------
+        3
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5">
+
+        </LinearLayout>
+
+        4
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="6">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center|left"
+                android:text="Add Home"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/addhome_text" />
+        </LinearLayout>
+
+
+
+        6
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.8"
+
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.75">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5">
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/not_connected"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.75">
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        7
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1">
+
+        </LinearLayout>
+
+        8
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.8"
+
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.75">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5">
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/signal_0"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.75">
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        9
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.1">
+
+        </LinearLayout>
+
+        10
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.8"
+
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.75">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5">
+
+                <Button
+                    android:id="@+id/btnhome"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/home" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.75">
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        11
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.4">
+
+        </LinearLayout>
+
+
+
+        1end  </LinearLayout>
+
+
+    2st    <LinearLayout
+    android:id="@+id/lay_loc1"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.5"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.2">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.8">
+
+        <RadioButton
+            android:id="@+id/radioButtonlocal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="LOCAL"
+            android:button="@drawable/radio_click_background"
+            android:textColor="#4282D0"
+            android:textSize="@dimen/addhome_text" />
+
+    </LinearLayout>
+
+
+</LinearLayout>2end
+
+
+    3star  <LinearLayout
+    android:id="@+id/lay_loc"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1.5"
+    android:weightSum="2"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.35">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.65">
+
+            <RadioButton
+                android:id="@+id/radioButtonadmin"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="ADMIN"
+                android:button="@drawable/radio_click_background"
+                android:textColor="#BCBEB0"
+                android:textSize="@dimen/addhome_text"/>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.35">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.65">
+
+            <RadioButton
+                android:id="@+id/radioButtonUser"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="USER"
+                android:button="@drawable/radio_click_background"
+                android:textColor="#BCBEB0"
+                android:textSize="@dimen/addhome_text" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+</LinearLayout>end
+
+
+
+
+    3 start
+    <LinearLayout
+        android:id="@+id/lay_rem1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2">
+        <LinearLayout
+            android:id="@+id/lay1"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.2">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.8">
+
+                <RadioButton
+                    android:id="@+id/radioButtonremote"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="REMOTE"
+                    android:button="@drawable/radio_click_background"
+                    android:textColor="#BCBEB0"
+                    android:textSize="@dimen/addhome_text"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        2end</LinearLayout>
+
+
+    3star
+
+    <LinearLayout
+    android:id="@+id/lay_rem"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="2"
+    android:weightSum="8"
+    android:orientation="vertical">
+
+
+    url s   <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.8"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.35">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.65">
+
+        <RadioButton
+            android:id="@+id/radioButtonURL"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="URL"
+            android:button="@drawable/radio_click_background"
+            android:textColor="#BCBEB0"
+            android:textSize="@dimen/addhome_text" />
+
+    </LinearLayout>
+</LinearLayout>url e
+
+
+    edit s  <LinearLayout
+    android:id="@+id/layeditbtn"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.5"
+    android:orientation="horizontal"
+    android:weightSum="3">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.4">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.7">
+
+        <Button
+            android:id="@+id/edit_url_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/edit_url" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.9">
+
+    </LinearLayout>
+
+</LinearLayout> edit e
+
+
+    url s <LinearLayout
+    android:id="@+id/lay_url"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.8"
+    android:orientation="horizontal"
+    android:weightSum="5">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.7">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5">
+
+        <TextView
+            android:id="@+id/tv_url"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="bottom"
+            android:text="URL"
+            android:textAlignment="center"
+            android:textColor="#BCBEB0"
+            android:textSize="@dimen/addhome_texturl" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.4">
+
+        <EditText
+            android:id="@+id/et_url"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:inputType="textPersonName"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_homref"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="bottom"
+
+            android:text="USER_ID"
+            android:textAlignment="center"
+            android:textColor="#BCBEB0"
+            android:textSize="@dimen/addhome_texturl"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.4">
+
+        <EditText
+            android:id="@+id/et_homref"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:digits="0123456789"/>
+    </LinearLayout>
+
+
+</LinearLayout> url e
+
+
+
+    <LinearLayout
+        android:id="@+id/lay5"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.35">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.65">
+
+            <RadioButton
+                android:id="@+id/radioButtonIP"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="IP"
+                android:button="@drawable/radio_click_background"
+                android:textColor="#BCBEB0"
+                android:textSize="@dimen/addhome_text"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    10
+
+    <LinearLayout
+        android:id="@+id/lay_ip"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.7">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5">
+
+            <TextView
+                android:id="@+id/tv_ip"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="bottom"
+                android:text="IP"
+                android:textAlignment="center"
+                android:textColor="#BCBEB0"
+                android:textSize="@dimen/addhome_texturl" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.4">
+
+            <EditText
+                android:id="@+id/et_ip"
+                android:imeOptions="actionNext"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:singleLine="true"
+                android:digits="0123456789."/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:id="@+id/tv_port"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="bottom"
+                android:text="PORT"
+                android:textAlignment="center"
+                android:textColor="#BCBEB0"
+                android:textSize="@dimen/addhome_texturl" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.4">
+
+            <EditText
+                android:id="@+id/et_port"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:digits="0123456789"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/lay7"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.4"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lay8"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/bt_conntdwnrem"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/connect" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2">
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+</LinearLayout>

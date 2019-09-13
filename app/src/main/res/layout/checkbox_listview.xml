@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edisonbro.com.edisonbroautomation.operatorsettings.CheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp" >
+
+    <edisonbro.com.edisonbroautomation.operatorsettings.InertCheckBox
+        android:id="@+id/singleitemCheckBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="0.3"
+        android:button="@drawable/checkmark"
+        android:focusable="false" />
+
+    <TextView
+        android:id="@+id/textview"
+        style="@style/NormalFonts"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:focusable="false"
+        android:gravity="center|left"
+        android:text="Switch 1"
+        android:textColor="#FFFFFF" />
+
+</edisonbro.com.edisonbroautomation.operatorsettings.CheckableLinearLayout>

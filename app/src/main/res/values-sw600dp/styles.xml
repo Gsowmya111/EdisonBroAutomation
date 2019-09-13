@@ -1,0 +1,362 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <dimen name="txt">10dp</dimen>
+   <!-- <dimen name="listtxt">10dp</dimen>-->
+
+    <!-- Panel StatusBar Style -->
+    <style name="txtstatusbar"  parent="@android:style/TextAppearance.Large">
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="subfontsdiv" parent="@android:style/TextAppearance.Large">
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- Main Panel Button Fonts Style -->
+    <style name="BtnFontsGrpInd" parent="@android:style/Widget.Button">
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- Main Panel ON OFF Button Fonts Style -->
+    <style name="BtnFontsOnOff" parent="@android:style/Widget.Button">
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- Main Panel Info text Fonts Style -->
+    <style name="txtinfoFonts"  parent="@android:style/TextAppearance.Large">
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- Group Panel Info text Fonts Style -->
+    <style name="txtinfoFontsGrp" parent="@android:style/Widget.TextView">
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- Group Panel Info text Fonts Style -->
+    <style name="txtinfoFontsGrpno" parent="@android:style/Widget.TextView">
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#000080</item>
+    </style>
+
+
+
+
+    <!-- the theme applied to the application or activity -->
+    <style name="CustomActionBarTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:homeAsUpIndicator">@drawable/nav_back</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/textback5</item>
+        <item name="android:titleTextStyle">@style/TitleTextColor</item>
+    </style>
+
+    <style name="TitleTextColor" parent="@android:style/TextAppearance.WindowTitle">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <!-- Title TextView Fonts Style -->
+    <style name="titleFontsblue" parent="@android:style/Widget.TextView">
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:textColor">#4282D0</item>
+    </style>
+
+
+    <!-- Title TextView Fonts Style -->
+    <style name="titleFonts" parent="@android:style/Widget.TextView">
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- Normal TextView Fonts Style -->
+    <style name="NormalFonts" parent="@android:style/Widget.TextView">
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- Normal TextView Fonts Style -->
+    <style name="MFonts" parent="@android:style/Widget.TextView">
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- Normal TextView Fonts Style -->
+    <style name="NormalFontswhite" parent="@android:style/Widget.TextView">
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- EditText Fonts Style -->
+    <style name="TextFieldFonts" parent="@android:style/Widget.EditText">
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <!-- Fonts Style -->
+    <style name="Fonts">
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <!-- Icon Fonts Style -->
+    <style name="IconFonts">
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <!-- Button Fonts Style -->
+    <style name="ButtonFonts" parent="@android:style/Widget.Button">
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- CheckBox Fonts Style -->
+    <style name="CheckBoxFonts" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:textSize">18dp</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- Number Pad Buttons Fonts Style -->
+    <style name="NumPadFonts" parent="@android:style/Widget.Button">
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">@drawable/num_btn</item>
+    </style>
+
+    <!-- IR APP Font Styles -->
+
+    <style name="Animations" />
+
+    <!-- PopDownMenu -->
+    <style name="Animations.PopDownMenu">
+        <item name="@android:windowEnterAnimation">@anim/railup</item>
+        <item name="@android:windowExitAnimation">@anim/raildown</item>
+    </style>
+
+    <style name="subfonts" parent="@android:style/TextAppearance.Large">
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="Textfonts" parent="@android:style/TextAppearance.Large">
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="titlefonts" parent="@android:style/TextAppearance.Large">
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="Buttons" parent="@android:style/TextAppearance.Large">
+        <item name="android:typeface">serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!--buttons color-->
+
+        <!--title and message color-->
+        <item name="android:textColorPrimary">#000</item>
+        <!--dialog background-->
+        <!--<item name="android:windowBackground">@drawable/popup_background</item>-->
+    </style>
+
+
+    <style name="MyDialogTheme1" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColorPrimary">#000</item>
+        <item name="color">#ffff</item>
+        <item name="windowFixedWidthMajor">60%</item>
+        <item name="windowFixedHeightMajor">90%</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+
+
+
+    <dimen name ="addhome_text">22sp</dimen>
+    <dimen name ="addhome_texturl">17sp</dimen>
+    <dimen name ="Congif_heading">17sp</dimen>
+    <dimen name ="Config_buton_text">12sp</dimen>
+    <dimen name ="Config_device_text">15sp</dimen>
+    <dimen name ="Ip_setting_text">15sp</dimen>
+    <dimen name ="Add_User_text">17sp</dimen>
+    <dimen name ="Add_user_radio">13sp</dimen>
+    <dimen name ="marginleft_adduser">3dp</dimen>
+
+   <!-- <dimen name ="grid_height">48dp</dimen>
+    <dimen name ="grid_width">80dp</dimen>-->
+
+
+   <!-- //timer
+    <dimen name="divdw">0dp</dimen>
+    <dimen name="divdh">0dp</dimen>
+    <dimen name="numh">90dp</dimen>
+    <dimen name="onoff">10dp</dimen>
+    &lt;!&ndash;<dimen name="txt">16dp</dimen>&ndash;&gt;
+    <dimen name="rtxt">10dp</dimen>
+    <dimen name="subtxt">12dp</dimen>-->
+
+    <style name="MyDialogTheme_timer" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColorPrimary">#000</item>
+        <item name="color">#ffff</item>
+        <item name="windowFixedWidthMinor">80%</item>
+        <item name="windowFixedHeightMajor">90%</item>
+    </style>
+
+
+
+    <style name="NumberPickerText">
+        <item name="android:textSize">22dp</item>
+    </style>
+
+
+
+
+
+    <dimen name="txt2">25dp</dimen>
+    <dimen name="txtsub">16dp</dimen>
+    <dimen name="txtsub2">18dp</dimen>
+
+    <dimen name="txt_buttons">17dp</dimen>
+
+
+    <dimen name="listtxt">18dp</dimen>
+
+    <dimen name="listimgwidth">182dp</dimen>
+    <dimen name="listimgheight">96dp</dimen>
+
+    <dimen name="listtxtmarginbottom">18dp</dimen>
+
+    <dimen name ="grid_height">82dp</dimen>
+    <dimen name ="grid_width">147dp</dimen>
+
+    <dimen name ="fish_grid_height">99dp</dimen>
+    <dimen name ="fish_grid_width">110dp</dimen>
+
+
+    <dimen name ="grid_padding">50dp</dimen>
+    <dimen name="gridview">30dp</dimen>
+    <dimen name ="dimmerset_Savebtn">25dp</dimen>
+
+    <dimen name="txt_rgbspeed_all_layout">22dp</dimen>
+    <dimen name="save_cancel_txt">20dp</dimen>
+    <dimen name="curtain_height1">50dp</dimen>
+    <dimen name="curtain_height2">230dp</dimen>
+    <dimen name="curtain_height3">80dp</dimen>
+    <dimen name="curtain_sheer_txt">18dp</dimen>
+    <dimen name="addhome_edittexturl">17dp</dimen>
+    <dimen name="addnewdev_wired_text">24dp</dimen>
+    <dimen name="dev_config_layout_text">20dp</dimen>
+    <dimen name="dev_config_layout_heading">24dp</dimen>
+    <dimen name="timer_edit_list_header">45dp</dimen>
+    <dimen name="timer_edit_text">17dp</dimen>
+    <dimen name="user_set_checkbox">15dp</dimen>
+    <dimen name="user_set_button">16dp</dimen>
+    <dimen name="button_padding">10dp</dimen>
+    <dimen name="userseting_butonheight">50dp</dimen>
+    <dimen name="user_settingtext">14dp</dimen>
+    <dimen name="operator_set_text">22dp</dimen>
+    <dimen name="operator_set_buttontxt">15dp</dimen>
+    <dimen name="operator_set_subtext">13dp</dimen>
+    <dimen name="camera_config">23dp</dimen>
+    <dimen name="camera_btn">18dp</dimen>
+    <dimen name="aboutus_text">35dp</dimen>
+    <dimen name="height_delete_userpopup">40dp</dimen>
+    <dimen name="pirlightval_txt">25dp</dimen>
+
+
+    //Timer
+    <dimen name="height1">70dp</dimen>
+    <dimen name="height2">720dp</dimen>
+    <dimen name="height3">90dp</dimen>
+    <dimen name="setopr_timerlist_txt">13dp</dimen>
+    <dimen name="numh">150dp</dimen>
+    <!--<dimen name="txt">30dp</dimen>-->
+    <dimen name="subtxt">20dp</dimen>
+    <dimen name="onoff">15dp</dimen>
+    <dimen name="Repeat_cyclic_txt">15dp</dimen>
+
+    <dimen name="divdw">0dp</dimen>
+    <dimen name="divdh">0dp</dimen>
+    <dimen name="rtxt">15dp</dimen>
+
+
+
+    <!--//timer
+    <dimen name="height1">70dp</dimen>
+    <dimen name="height2">720dp</dimen>
+    <dimen name="height3">90dp</dimen>
+    <dimen name="numh">100dp</dimen>
+    <dimen name="setopr_timerlist_txt">8dp</dimen>
+    &lt;!&ndash;<dimen name="txt">15dp</dimen>&ndash;&gt;
+    <dimen name="subtxt">12dp</dimen>
+    <dimen name="Repeat_cyclic_txt">12dp</dimen>
+    <dimen name="onoff">10dp</dimen>
+
+    <dimen name="divdw">0dp</dimen>
+    <dimen name="divdh">0dp</dimen>
+    <dimen name="rtxt">10dp</dimen>-->
+
+
+    <dimen name="dimmer_margn_left">28dp</dimen>
+    <dimen name="dimmer_padding">30dp</dimen>
+
+</resources>
+
+
+

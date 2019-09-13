@@ -1,0 +1,111 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <dimen name="txt_buttons">11dp</dimen>
+    <dimen name="txt2">14dp</dimen>
+    <dimen name="txtsub">9dp</dimen>\
+    <dimen name="txtsub2">14dp</dimen>
+
+
+    <dimen name="listtxt">12dp</dimen>
+
+    <dimen name="listimgwidth">110dp</dimen>
+    <dimen name="listimgheight">60dp</dimen>
+
+    <dimen name="listtxtmarginbottom">9dp</dimen>
+
+    <dimen name="gridview">0dp</dimen>
+
+    <dimen name ="grid_height">51dp</dimen>
+    <dimen name ="grid_width">86dp</dimen>
+
+    <dimen name ="fish_grid_height">53dp</dimen>
+    <dimen name ="fish_grid_width">70dp</dimen>
+
+    <dimen name ="grid_padding">30dp</dimen>
+
+    <dimen name ="dimmerset_Savebtn">20dp</dimen>
+
+
+    <dimen name="txt_rgbspeed_all_layout">16dp</dimen>
+    <dimen name="save_cancel_txt">10dp</dimen>
+    <dimen name="curtain_height1">25dp</dimen>
+    <dimen name="curtain_height2">150dp</dimen>
+    <dimen name="curtain_height3">55dp</dimen>
+    <dimen name="curtain_sheer_txt">12dp</dimen>
+    <dimen name="addhome_edittexturl">13dp</dimen>
+    <dimen name="addnewdev_wired_text">17dp</dimen>
+    <dimen name="dev_config_layout_text">14dp</dimen>
+    <dimen name="dev_config_layout_heading">18dp</dimen>
+    <dimen name="timer_edit_list_header">30dp</dimen>
+    <dimen name="timer_edit_text">14dp</dimen>
+    <dimen name="user_set_checkbox">12dp</dimen>
+    <dimen name="user_set_button">12dp</dimen>
+    <dimen name="button_padding">7dp</dimen>
+    <dimen name="userseting_butonheight">30dp</dimen>
+    <dimen name="user_settingtext">10dp</dimen>
+    <dimen name="operator_set_text">16dp</dimen>
+    <dimen name="operator_set_buttontxt">11dp</dimen>
+    <dimen name="operator_set_subtext">10dp</dimen>
+    <dimen name="camera_config">14dp</dimen>
+    <dimen name="camera_btn">12dp</dimen>
+    <dimen name="aboutus_text">20dp</dimen>
+    <dimen name="height_delete_userpopup">30dp</dimen>
+    <dimen name="pirlightval_txt">14dp</dimen>
+    <dimen name ="Server_setting_text">14dp</dimen>
+
+
+    <dimen name="about_text">20dp</dimen>
+    <dimen name="contacttext">25dp</dimen>
+    <dimen name="text">17dp</dimen>
+
+    <style name="MyDialogTheme_timer" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColorPrimary">#000</item>
+        <item name="windowFixedWidthMinor">60%</item>
+        <item name="windowFixedHeightMajor">90%</item>
+    </style>
+
+    <dimen name="height1">40dp</dimen>
+    <dimen name="height2">450dp</dimen>
+    <dimen name="height3">55dp</dimen>
+    <dimen name="numh">100dp</dimen>
+    <dimen name="setopr_timerlist_txt">8dp</dimen>
+    <dimen name="txt">15dp</dimen>
+    <dimen name="subtxt">12dp</dimen>
+    <dimen name="Repeat_cyclic_txt">12dp</dimen>
+    <dimen name="onoff">10dp</dimen>
+
+    <dimen name="divdw">0dp</dimen>
+    <dimen name="divdh">0dp</dimen>
+    <dimen name="rtxt">10dp</dimen>
+
+    <style name="NumberPickerText">
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <dimen name="divgridheight">140dp</dimen>
+
+
+<!--    <dimen name="width_timer">0.85</dimen>
+    <dimen name="height_time">0.90</dimen>-->
+
+
+    <dimen name="dimmer_margn_left">29dp</dimen>
+    <dimen name="dimmer_padding">5dp</dimen>
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:background="@drawable/wirles_set_backgroung_cb1"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center" >
+
+    <CheckBox
+        android:id="@+id/checkBox_toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="0.1"
+        android:button="@drawable/c2"
+        android:clickable="false"
+        android:enabled="false"
+        android:focusable="false" 
+        android:focusableInTouchMode="false" />
+
+    <TextView
+        android:id="@+id/textview"
+        style="@style/NormalFonts"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:focusable="false"
+        android:gravity="left|center"
+        android:text="Large Text"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <group android:visible="true" android:id="@+id/second_group" android:checkableBehavior="single" android:divider="#e6e6e6">
+       <!-- <item
+            android:title="Houses"
+            android:orderInCategory="99"/>-->
+    </group>
+  <!--  <group android:checkableBehavior="single" android:id="@+id/nav_refer">
+
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_movies"
+            android:icon="@drawable/ic_local_movies_black_24dp"
+            android:title="@string/nav_movies" />
+
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="@string/nav_notifications" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/nav_settings"></item>
+
+    </group> -->
+
+    <group android:visible="true" android:id="@+id/item1" android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/nav_user_sett"
+                android:icon="@mipmap/settings_gray"
+                android:title="@string/str_user_sett"
+                android:orderInCategory="201"
+                app:showAsAction="always|withText"
+                />
+            <item
+                android:id="@+id/nav_operator_sett"
+                android:title="@string/str_oper_sett"
+                android:icon="@mipmap/operator_settings"
+                android:orderInCategory="202"
+                app:showAsAction="always|withText"
+                />
+
+                <item
+                    android:id="@+id/nav_smart_sett"
+                    android:title="@string/str_smart_sett"
+                    android:icon="@mipmap/smart_settings"
+                    android:orderInCategory="203"
+                    app:showAsAction="always|withText"
+                    />
+            <item
+                android:id="@+id/nav_log_analytics"
+                android:title="@string/str_log_analytics"
+                android:icon="@mipmap/navigation_log"
+                android:orderInCategory="204"
+                app:showAsAction="always|withText"
+                />
+                <item
+                    android:id="@+id/nav_complaints_sett"
+                    android:icon="@mipmap/support"
+                    android:title="@string/str_compl_sett"
+                    android:orderInCategory="204"
+                    app:showAsAction="always|withText"
+                    />
+
+                <item
+                    android:id="@+id/nav_about_sett"
+                    android:title="@string/str_about_sett"
+                    android:icon="@mipmap/about_us"
+                    android:orderInCategory="205"
+                    app:showAsAction="always|withText"
+                    />
+
+
+
+    </group>
+    <!--<item  android:visible="true" android:id="@+id/item1" android:orderInCategory="200" app:showAsAction="always">
+
+    </item>-->
+
+   <!--  <group android:visible="false" android:id="@+id/third_group">
+            <item
+                android:id="@+id/nav_user_sett"
+                android:icon="@mipmap/settings_gray"
+                android:title="@string/str_user_sett"
+                android:orderInCategory="301"
+                app:showAsAction="always|withText"
+                />
+
+            <item
+                android:id="@+id/nav_operator_sett"
+                android:title="@string/str_oper_sett"
+                android:icon="@mipmap/settings_gray"
+                android:orderInCategory="302"
+                app:showAsAction="always|withText"
+                />
+
+   </group>-->
+
+
+</menu>
